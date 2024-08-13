@@ -1,0 +1,88 @@
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8
+$ git clone https://github.com/Xavi-X333/PRUEBAFINALC-Edgar.git
+Cloning into 'PRUEBAFINALC-Edgar'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (7/7), done.
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8
+$ ls
+'Evaluación Practica 2.pdf'   EXAMENC/   EXAMENC.txt   PRUEBAFINALC-Edgar/
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8
+$ cd  PRUEBAFINALC-Edgar
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (main)
+$ ls
+README.md
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (main)
+$ code .
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (main)
+$ git branch Edgar
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (main)
+$ git switch Edgar
+Switched to branch 'Edgar'
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (Edgar)
+$ touch Ejercicio_edgar.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (Edgar)
+$ git add Ejercicio_edgar.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (Edgar)
+$ git commit -m "Commit Edgar"
+[Edgar d3c5503] Commit Edgar
+ 1 file changed, 20 insertions(+)
+ create mode 100644 Ejercicio_edgar.c
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (Edgar)
+$ git comando1
+* d3c5503 (HEAD -> Edgar) Commit Edgar
+* 65123db (origin/main, origin/HEAD, main) Actualizar README.md
+* 0793fdc Initial commit
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (Edgar)
+$ git push
+fatal: The current branch Edgar has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Edgar
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (Edgar)
+$ git push --set-upstream origin Edgar
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 558 bytes | 279.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Edgar' on GitHub by visiting:
+remote:      https://github.com/Xavi-X333/PRUEBAFINALC-Edgar/pull/new/Edgar
+remote:
+To https://github.com/Xavi-X333/PRUEBAFINALC-Edgar.git
+ * [new branch]      Edgar -> Edgar
+branch 'Edgar' set up to track 'origin/Edgar'.
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (Edgar)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (main)
+$ touch commits.txt
+
+edgar@Edmin041 MINGW64 ~/programacion/c/13 8/PRUEBAFINALC-Edgar (main)
+$
+
+
