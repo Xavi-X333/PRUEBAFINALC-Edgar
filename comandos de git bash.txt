@@ -1,0 +1,121 @@
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~
+$ cd desktop
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/desktop
+$ ls
+'1 agosot'/                                                  'cotizacion de gorras.pdf'
+ EXAMENC/                                                    'cotizacion playeras.xlsx'
+ Git-2.46.0-64-bit.exe*                                       desktop.ini
+'Microsoft Edge.lnk'*                                        'esvin lopez.docx'
+'Para tu proyecto de basurero inteligente con Arduino.docx'   gasto.txt
+'chicos de primer examen si valido.xlsx'                      proyecto1/
+'clase de las normas APA.docx'                                prueba.cpp
+'codigos pendientes.txt'                                      prueba2.cpp
+'comando de git.txt'                                          tarea.txt
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/desktop
+$ cd ..
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~
+$ cd documents
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents
+$ ls
+'30 Kits de 20 juegos.docx'                'caprichos mios'/
+ Corel/                                     ciberseguridad/
+'CorelDRAW Graphics Suite 2020 Portable'/  'computacion primaria refugio'/
+ FabLab/                                    desktop.ini
+ Lab.docx                                  'diseño grafico'/
+'Mi música'@                                peliculas/
+'Mis imágenes'@                            'programacion ciem xela'/
+'Mis vídeos'@                              'programacion cteisa'/
+'Plantillas personalizadas de Office'/     'progranador jr'/
+'artes plasticas'/                         'proyectos en git'/
+'artes plasticas tecero basico'/
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents
+$ cd "programacion ciem xela"
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela
+$ git clone https://github.com/Xavi-X333/PRUEBAFINALC-Edgar.git
+Cloning into 'PRUEBAFINALC-Edgar'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 10 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (10/10), done.
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela
+$ cd PRUEBAFINALC-Edgar
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (main)
+$ git branch Natalia
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (main)
+$ git switch Natalia
+Switched to branch 'Natalia'
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (Natalia)
+$ touch naty.c
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (Natalia)
+$ code .
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (Natalia)
+$ git add naty.c
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (Natalia)
+$ git commit -m "commit de naty.c"
+[Natalia e7b77e9] commit de naty.c
+ 1 file changed, 21 insertions(+)
+ create mode 100644 naty.c
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (Natalia)
+$ git push
+fatal: The current branch Natalia has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Natalia
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (Natalia)
+$ ^C
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (Natalia)
+$ git push --set-upstream origin Natalia
+
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 513 bytes | 513.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'Natalia' on GitHub by visiting:
+remote:      https://github.com/Xavi-X333/PRUEBAFINALC-Edgar/pull/new/Natalia
+remote:
+To https://github.com/Xavi-X333/PRUEBAFINALC-Edgar.git
+ * [new branch]      Natalia -> Natalia
+branch 'Natalia' set up to track 'origin/Natalia'.
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (Natalia)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (main)
+$ code .
+Run with 'code -' to read output from another program (e.g. 'echo Hello World | code -').
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (main)
+$ touch "comandos de git bash.txt"
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (main)
+$ code .
+
+educacion.ciem@DESKTOP-JDGSFG8 MINGW64 ~/documents/programacion ciem xela/PRUEBAFINALC-Edgar (main)
+$
